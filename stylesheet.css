@@ -18,9 +18,9 @@
   }
   
   .top-wrapper {
-    padding: 180px 0 100px 0;
-    background-image: url(top.png);
-    background-size: cover;
+    padding: 0 100px 0 0;
+    background-image: url(img/logo2.png);
+    background-size: contain;
     color: white;
     text-align: center;
   }
