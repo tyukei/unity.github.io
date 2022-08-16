@@ -480,6 +480,25 @@ img {
     margin-bottom: 30px;
   }
 
+    /* article */
+    .article-name {
+      font-size: 12px;
+    }
+  
+    .article-info {
+      margin-top: 3px;
+    }
+  
+    .article-list {
+      justify-content: space-between;
+    }
+  
+    .article-item {
+      flex: 0 0 48%;
+      margin-right: 0;
+      margin-bottom: 30px;
+    }
+
   /* Skill */
   .skill-list {
     display: block;
