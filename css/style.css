@@ -211,6 +211,46 @@ img {
 }
 
 /*--------------------------------
+ article
+---------------------------------*/
+.article-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -40px;
+}
+
+.article-item {
+  width: 31.74603%;
+  margin-right: 1.58730%;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.article-item:hover {
+  opacity: .9;
+}
+
+.article-item:nth-of-type(3n) {
+  margin-right: 0;
+}
+
+.article-img img {
+  border: 1px solid #e6e6e6;
+}
+
+.article-name {
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.article-info {
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+
+/*--------------------------------
  Skill
 ---------------------------------*/
 .skill-list {
